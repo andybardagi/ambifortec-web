@@ -1,0 +1,84 @@
+#titulo{
+background-color:#f6f6f6;
+}
+
+.carousel-control-prev, .carousel-control-next{
+padding: 0px;
+}
+body {
+    font-family: "Montserrat";
+    /* overflow-x: hidden; */
+}
+
+.carousel-container{
+    padding: 0% 0% 0% 0%;
+}
+
+.cont-index{
+color: #889832;
+}
+
+.contacto-index{
+padding: 5%;
+background-color: #0C201C;
+color: white;
+}
+
+.navbar{
+padding: 1rem 0 4.5rem;
+}
+
+.title-section{
+background-color: #889832;
+color: white;
+padding: 5%;
+}
+
+
+.segunda-index h2{
+text-align: center;
+padding: 3% 0%;
+}
+.segunda-index{
+padding: 5% 20%;
+background-color: #f8f8f8f8;
+color: black;
+}
+
+.productos-index{
+padding: 3% 15%;
+}
+
+/* CONTACTO */
+
+#contacto{
+padding: 0 10%;
+position: relative;
+background-color: #889832;
+}
+
+.datos-contacto{
+color: white;
+margin: auto 0 auto 0;
+}
+
+.datos-contacto-lista{
+list-style: none;
+line-height: 3;
+}
+
+.fa-map-marker-alt{
+margin-right: 1rem ;
+}
+
+.fa-phone{
+margin-right: 1rem ;
+}
+
+.fa-envelope{
+margin-right: 1rem ;
+}
+
+.mapa-ubicacion{
+   padding: 0%;
+}
