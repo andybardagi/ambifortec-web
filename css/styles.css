@@ -35,8 +35,22 @@ background-color: #0C201C;
 color: white;
 }
 
+@media (max-width: 1280px){
+    .contacto-index{
+        padding: 5% 5% 80px;
+    }
+    .mapa-ubicacion{
+        height: 650px;
+    }
+}
+
 .navbar{
-padding: 1rem 0 4.5rem;
+padding: 1rem 0 1rem;
+}
+
+.nav-link{
+    margin: 0rem 2.5rem;
+    font-size: 18px;
 }
 
 .title-section{
@@ -63,14 +77,20 @@ padding: 3% 15%;
 /* CONTACTO */
 
 #contacto{
-padding: 0 10%;
 position: relative;
 background-color: #889832;
 }
 
 .datos-contacto{
+padding: 5% 5% 300px;
 color: white;
 margin: auto 0 auto 0;
+}
+
+@media (max-width: 1280px){
+    .datos-contacto{
+        padding: 5% 5% 80px;
+    }
 }
 
 .datos-contacto-lista{
