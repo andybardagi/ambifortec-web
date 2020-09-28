@@ -2,24 +2,35 @@
 background-color:#f6f6f6;
 }
 
-.carousel-control-prev, .carousel-control-next{
-padding: 0px;
-}
 body {
-    font-family: "Montserrat";
-    /* overflow-x: hidden; */
+font-family: "Montserrat";
 }
 
-.carousel-container{
-    padding: 0% 0% 0% 0%;
+.card{
+text-align: center;
+}
+
+.row{
+max-width: 100%;
+margin: 0%;
+padding: 0%;
+}
+
+.padd-carous{
+padding: 0% 0% 0% 0%;
 }
 
 .cont-index{
 color: #889832;
 }
 
+.img-carousel{
+padding: 0px;
+width: 100%;
+}
+
 .contacto-index{
-padding: 5%;
+padding: 5% 5% 300px;
 background-color: #0C201C;
 color: white;
 }
@@ -80,11 +91,8 @@ margin-right: 1rem ;
 }
 
 .mapa-ubicacion{
-   padding: 0%;
-}
-
-contacto:.mapa-ubicacion{
-    margin: 0 auto 0 ;
-   border: none;
+margin: 0px;
+border: none;
+padding: 0%;
 }
 
