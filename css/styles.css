@@ -82,3 +82,7 @@ margin-right: 1rem ;
 .mapa-ubicacion{
    padding: 0%;
 }
+
+contacto:.mapa-ubicacion{
+    margin: 0 auto 0 ;
+}
