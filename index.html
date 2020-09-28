@@ -39,7 +39,8 @@
   <section id="titulo">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/Logo_Trans2.png" width="150" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img class="logo-nav-bar" src="images/Logo_Trans2.png" width="150"
+            alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -126,7 +127,7 @@
         <h5 class="card-title">COMPACTADORES</h5>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="col-lg-4 col-md-6 col-sm-12 foto-contenedor">
       <div class="card">
         <img class="card-img-top" src="images/contenedor.png" alt="Contenedor">
         <h5 class="card-title">CONTENEDORES</h5>
@@ -135,27 +136,36 @@
   </div>
 
   <div class="ver-mas">
-    <button class="btn btn-primary btn-lg boton-ver-mas">VER MÁS</button>
+    <button class="btn btn-lg boton-ver-mas">VER MÁS</button>
   </div>
 
 
   <!-- CONTACTO ++ MAPA -->
-  <div class="row cont-index">
-    <div class="contacto-index col-lg-6 col-md-12">
-      <h2>¡CONTACTÁNOS!</h2>
-      <ul class="datos-contacto-lista">
-        <li><i class="cont-index fas fa-map-marker-alt"></i> UBICACIÓN</li>
-        <li><i class="cont-index fas fa-phone"></i> TELÉFONO</li>
-        <li><i class="cont-index fas fa-envelope"></i>CORREO ELECTRÓNICO</li>
-      </ul>
+  <section id="contacto-principal">
+    <div class="row cont-index">
+      <div class="contacto-index col-lg-6 col-md-12">
+        <h2>¡CONTACTÁNOS!</h2>
+        <ul class="datos-contacto-lista">
+          <li><i class="cont-index fas fa-map-marker-alt"></i> UBICACIÓN</li>
+          <li><i class="cont-index fas fa-phone"></i> TELÉFONO</li>
+          <li><i class="cont-index fas fa-envelope"></i>CORREO ELECTRÓNICO</li>
+        </ul>
+      </div>
+      <div class="mapa-ubicacion col-lg-6 col-md-12">
+        <iframe class="mapa-ubicacion"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5712.1325830558235!2d-63.91148369021129!3d-31.64878697419699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432cafff1f1cec1%3A0xf370c1a41d5322ac!2zUsOtbyBTZWd1bmRvLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1601235555979!5m2!1ses-419!2sar"
+          width="100%" height="100%" frameborder="0px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
     </div>
-    <div class="mapa-ubicacion col-lg-6 col-md-12">
-      <iframe class ="mapa-ubicacion"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5712.1325830558235!2d-63.91148369021129!3d-31.64878697419699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432cafff1f1cec1%3A0xf370c1a41d5322ac!2zUsOtbyBTZWd1bmRvLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1601235555979!5m2!1ses-419!2sar"
-        width="100%" height="100%" frameborder="0px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </section>
 
-    </div>
-  </div>
+  <!-- PIE DE PAGINA -->
+  <footer>
+        <i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i
+        class="fas fa-envelope "></i>
+      <p class="copyright">© Ambifortec</p>
+  
+  </footer>
 </body>
 
 </html>

@@ -1,147 +1,202 @@
-#titulo{
-background-color:#f6f6f6;
+#titulo {
+    background-color: #f6f6f6;
 }
 
 body {
-font-family: "Montserrat";
+    font-family: "Montserrat";
 }
 
+/* NavBar */
 
-.row{
-max-width: 100%;
-margin: 0%;
-padding: 0%;
+.navbar {
+    padding: 1rem 0 1rem;
 }
 
-.padd-carous{
-padding: 0% 0% 0% 0%;
-}
-
-.cont-index{
-color: #889832;
-}
-
-.img-carousel{
-padding: 0px;
-width: 100%;
-}
-
-.contacto-index{
-padding: 5% 5% 300px;
-background-color: #0C201C;
-color: white;
-}
-
-@media (max-width: 1280px){
-    .contacto-index{
-        padding: 5% 5% 80px;
-    }
-    .mapa-ubicacion{
-        height: 650px;
-    }
-}
-
-.navbar{
-padding: 1rem 0 1rem;
-}
-
-.ver-mas{
-text-align: center;
-padding: 0rem 4rem 3rem;
-
-
-}
-.nav-link{
+.nav-link {
     margin: 0rem 2.5rem;
     font-size: 18px;
 }
 
-.title-section{
-background-color: #889832;
-color: white;
-padding: 5%;
+.logo-nav-bar{
+    margin: 5% 10%;
+}
+
+.navbar-toggler{
+    margin-right: 0.5rem;
+}
+/* TextoPrincipal */
+
+.title-section {
+    background-color: #889832;
+    color: white;
+    padding: 5%;
 }
 
 
-.segunda-index h2{
-text-align: center;
-padding: 3% 0%;
-}
-.segunda-index{
-padding: 5% 20%;
-background-color: #f8f8f8f8;
-color: black;
+.row {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
 
-.boton-ver-mas{
-width: 30%;
-color: white;
-background-color:maroon;
-border-radius: 20px;
+.padd-carous {
+    padding: 0% 0% 0% 0%;
 }
 
-.productos-index{
-padding: 6% 10%;
-padding-bottom: 0em;
-text-align: center;
+.img-carousel {
+    padding: 0px;
+    width: 100%;
 }
 
-.card{
+/* Seccion-eslogan */
+
+.segunda-index h2 {
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.segunda-index {
+    padding: 5% 20%;
+    background-color: #f8f8f8f8;
+    color: black;
+}
+
+/* Productos-pag-principal */
+
+.ver-mas {
+    text-align: center;
+    padding: 2rem 4rem 3rem;
+}
+
+.boton-ver-mas {
+    width: 30%;
+    color: white;
+    background-color:#781A23;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.boton-ver-mas:hover{
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: #781A23;
+    border-width: 2px;
+}
+
+.productos-index {
+    padding: 6% 10%;
+    padding-bottom: 0em;
+    text-align: center;
+}
+
+.card {
     text-align: center;
     border: none;
     width: 100%;
 }
 
-.card-title{
+.card-title {
     color: #889832;
     font-size: 130%;
     text-overflow: ellipsis;
     padding: 2rem 0.8rem;
     font-weight: bold;
-
-
-}
-    
-
-/* CONTACTO */
-
-#contacto{
-position: relative;
-background-color: #889832;
 }
 
-.datos-contacto{
-padding: 5% 5% 300px;
-color: white;
-margin: auto 0 auto 0;
-}
-
-@media (max-width: 1280px){
-    .datos-contacto{
-        padding: 5% 5% 80px;
+@media (max-width: 1024px){
+    .foto-contenedor{
+        margin: 0 auto;
     }
 }
 
-.datos-contacto-lista{
-list-style: none;
-line-height: 3;
+/* Contacto-pag-principal */
+
+#contacto-principal{
+    margin: 4rem 0;
 }
 
-.fa-map-marker-alt{
-margin-right: 1rem ;
+.cont-index {
+    color: #889832;
 }
 
-.fa-phone{
-margin-right: 1rem ;
+.contacto-index {
+    padding: 5% 5%;
+    background-color: #0C201C;
+    color: white;
 }
 
-.fa-envelope{
-margin-right: 1rem ;
+@media (max-width: 1280px) {
+    .contacto-index {
+        padding: 5% 5% 80px;
+    }
+
+    .mapa-ubicacion {
+        height: 650px;
+    }
 }
 
-.mapa-ubicacion{
-margin: 0px;
-border: none;
-padding: 0%;
+/* Footer */
+
+footer{
+    text-align: center;
 }
 
+.fa-facebook-f{
+    margin: 0.5rem;
+}
+
+.fa-instagram{
+    margin: 0.5rem;
+}
+
+.envelope-footer{
+    margin: 0.5rem;
+}
+
+/* CONTACTO */
+
+#contacto {
+    position: relative;
+    background-color: #889832;
+}
+
+.datos-contacto {
+    padding: 8% 8%;
+    color: white;
+    margin: auto 0 auto 0;
+}
+
+.texto-contacto{
+    margin: auto ;
+}
+
+@media (max-width: 1280px) {
+    .datos-contacto {
+        padding: 10% 10%;
+    }
+}
+
+.datos-contacto-lista {
+    list-style: none;
+    line-height: 3;
+}
+
+.fa-map-marker-alt {
+    margin-right: 1rem;
+}
+
+.fa-phone {
+    margin-right: 1rem;
+}
+
+.fa-envelope {
+    margin-right: 1rem;
+}
+
+.mapa-ubicacion {
+    margin: 0px;
+    border: none;
+    padding: 0%;
+}
