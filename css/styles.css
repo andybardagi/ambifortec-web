@@ -6,6 +6,28 @@ body {
     font-family: "Montserrat";
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+@media(max-width:1024px){
+    h2{
+        font-size: 30px;
+    }
+}
+
 /* NavBar */
 
 .navbar {
@@ -17,13 +39,18 @@ body {
     font-size: 18px;
 }
 
-.logo-nav-bar{
+.nav-item{
+    font-weight: 500;
+}
+
+.logo-nav-bar {
     margin: 5% 10%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     margin-right: 0.5rem;
 }
+
 /* TextoPrincipal */
 
 .title-section {
@@ -61,6 +88,13 @@ body {
     color: black;
 }
 
+
+@media (max-width: 1024px) {
+    .segunda-index {
+        text-align: justify;
+    }
+}
+
 /* Productos-pag-principal */
 
 .ver-mas {
@@ -71,13 +105,13 @@ body {
 .boton-ver-mas {
     width: 30%;
     color: white;
-    background-color:#781A23;
+    background-color: #781A23;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 400;
 }
 
-.boton-ver-mas:hover{
+.boton-ver-mas:hover {
     color: black;
     background-color: white;
     border-style: solid;
@@ -105,15 +139,15 @@ body {
     font-weight: bold;
 }
 
-@media (max-width: 1024px){
-    .foto-contenedor{
+@media (max-width: 1024px) {
+    .foto-contenedor {
         margin: 0 auto;
     }
 }
 
 /* Contacto-pag-principal */
 
-#contacto-principal{
+#contacto-principal {
     margin: 4rem 0;
 }
 
@@ -137,21 +171,27 @@ body {
     }
 }
 
+.datos-contacto-lista-principal {
+    letter-spacing: 1.5px;
+    list-style: none;
+    line-height: 3;
+}
+
 /* Footer */
 
-footer{
+footer {
     text-align: center;
 }
 
-.fa-facebook-f{
+.fa-facebook-f {
     margin: 0.5rem;
 }
 
-.fa-instagram{
+.fa-instagram {
     margin: 0.5rem;
 }
 
-.envelope-footer{
+.envelope-footer {
     margin: 0.5rem;
 }
 
@@ -168,9 +208,12 @@ footer{
     margin: auto 0 auto 0;
 }
 
-.texto-contacto{
-    margin: auto ;
+.texto-contacto h2 {
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
 }
+
 
 @media (max-width: 1280px) {
     .datos-contacto {
@@ -181,6 +224,7 @@ footer{
 .datos-contacto-lista {
     list-style: none;
     line-height: 3;
+    letter-spacing: 1.5px;
 }
 
 .fa-map-marker-alt {
@@ -189,6 +233,7 @@ footer{
 
 .fa-phone {
     margin-right: 1rem;
+    transform: rotate(90deg);
 }
 
 .fa-envelope {
