@@ -8,9 +8,9 @@ body {
 
 /* NavBar */
 
-.navbar {
+/* .navbar {
     padding: 1rem 0 1rem;
-}
+} */
 
 .nav-link {
     margin: 0rem 2.5rem;
@@ -72,6 +72,9 @@ body {
     width: 30%;
     color: white;
     background-color:#781A23;
+    border-style: solid;
+    border-color: #781A23;
+    border-width: 2px;
     border-radius: 20px;
     cursor: pointer;
     font-weight: 400;
@@ -200,3 +203,44 @@ footer{
     border: none;
     padding: 0%;
 }
+
+/* ABOUT - SECCION EMPRESA */
+.header {
+    text-align: center;
+    padding: 2% 0%;
+    /* background-color: #fcf4ce; */
+}
+.trio-empresa {
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.rojo, .verde, .verde-oscuro{
+    font-weight: 650;
+    font-size: 65px;
+}
+
+.rojo{
+    color: maroon;
+}
+.verde{
+    color: yellowgreen;
+}
+.verde-oscuro{
+    color: darkgreen;
+}
+
+.card-exp {
+    color: black;
+    font-size: 150%;
+    text-overflow: ellipsis;
+    padding: 2rem 0.8rem;
+    font-weight: bold;
+    
+}
+.card-holder {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15%;
+}    
+
