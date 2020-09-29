@@ -105,12 +105,11 @@ h3 {
 .boton-ver-mas {
     width: 30%;
     color: white;
-    <<<<<<< HEAD background-color: #781A23;
-    =======background-color: #781A23;
+    background-color: #781A23;
     border-style: solid;
     border-color: #781A23;
     border-width: 2px;
-    >>>>>>>0097edf2ff5fc6fbb4e836abf3b8defaca15a1b5 border-radius: 20px;
+    border-radius: 20px;
     cursor: pointer;
     font-weight: 400;
 }
