@@ -22,24 +22,24 @@ h3 {
     font-size: 30px;
 }
 
-@media(max-width:1024px){
-    h2{
+@media(max-width:1024px) {
+    h2 {
         font-size: 30px;
     }
 }
 
 /* NavBar */
 
-.navbar {
+/* .navbar {
     padding: 1rem 0 1rem;
-}
+} */
 
 .nav-link {
     margin: 0rem 2.5rem;
     font-size: 18px;
 }
 
-.nav-item{
+.nav-item {
     font-weight: 500;
 }
 
@@ -105,8 +105,12 @@ h3 {
 .boton-ver-mas {
     width: 30%;
     color: white;
-    background-color: #781A23;
-    border-radius: 20px;
+    <<<<<<< HEAD background-color: #781A23;
+    =======background-color: #781A23;
+    border-style: solid;
+    border-color: #781A23;
+    border-width: 2px;
+    >>>>>>>0097edf2ff5fc6fbb4e836abf3b8defaca15a1b5 border-radius: 20px;
     cursor: pointer;
     font-weight: 400;
 }
@@ -244,4 +248,51 @@ footer {
     margin: 0px;
     border: none;
     padding: 0%;
+}
+
+/* ABOUT - SECCION EMPRESA */
+.header {
+    text-align: center;
+    padding: 2% 0%;
+    /* background-color: #fcf4ce; */
+}
+
+.trio-empresa {
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.rojo,
+.verde,
+.verde-oscuro {
+    font-weight: 650;
+    font-size: 65px;
+}
+
+.rojo {
+    color: maroon;
+}
+
+.verde {
+    color: yellowgreen;
+}
+
+.verde-oscuro {
+    color: darkgreen;
+}
+
+.card-exp {
+    color: black;
+    font-size: 150%;
+    text-overflow: ellipsis;
+    padding: 2rem 0.8rem;
+    font-weight: bold;
+
+}
+
+.card-holder {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15%;
 }
