@@ -1,6 +1,4 @@
-#titulo {
-    background-color: #f6f6f6;
-}
+
 
 body {
     font-family: "Montserrat";
@@ -28,11 +26,19 @@ h3 {
     }
 }
 
+p{
+    font-size: 18px;
+}
+
 /* NavBar */
 
 /* .navbar {
     padding: 1rem 0 1rem;
 } */
+
+#titulo {
+    background-color: #f6f6f6;
+}
 
 .nav-link {
     margin: 0rem 2.5rem;
@@ -294,4 +300,15 @@ footer {
     text-align: center;
     width: 100%;
     padding-bottom: 15%;
+}
+
+/* SERVICIOS */
+
+.texto-servicios h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.texto-servicios{
+    padding: 8%;
 }
