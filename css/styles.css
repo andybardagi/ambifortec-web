@@ -49,6 +49,11 @@ p{
     font-weight: 500;
 }
 
+.activo-nav{
+    border-bottom: 2px solid  #781A23 ;
+    color: black;
+}
+
 .logo-nav-bar {
     margin: 5% 10%;
 }
@@ -276,7 +281,7 @@ footer {
 }
 
 .rojo {
-    color: maroon;
+    color:  #781A23;
 }
 
 .verde {
@@ -311,4 +316,20 @@ footer {
 
 .texto-servicios{
     padding: 8%;
+}
+
+/* EQUIPOS */
+
+.tit-equipos{
+    padding: 3% 10%;
+}
+.tit-equipos, h2{
+    font-weight: 750;
+}
+.equipos{
+    padding: 1% 10%;
+}
+
+.tj-equipos{
+    /* rellenar a gusto para tarjetas de la seccion equipo */
 }
