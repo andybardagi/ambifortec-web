@@ -54,7 +54,7 @@ p{
     color: black;
 }
 
-.logo-nav-bar {
+.nav-bar-brand {
     margin: 5% 10%;
 }
 
@@ -331,5 +331,6 @@ footer {
 }
 
 .tj-equipos{
-    /* rellenar a gusto para tarjetas de la seccion equipo */
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 15px;
 }
