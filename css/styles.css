@@ -334,4 +334,26 @@ footer {
     /* tarjetas seccion equipos */
     border: 1px solid rgba(0,0,0,.125);
     margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.tj-equipos .card-img-top{
+    transition: .5s;
+}
+
+.tj-equipos:hover .card-img-top{
+    opacity: .5;
+    transform: translateX(50%);
+}
+
+.tj-equipos .descripcion-equipos{
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+    padding: 20px;
+    text-align: center;
+}
+
+.tj-equipos:hover .descripcion-equipos{
+    transform: perspective(2000px) rotateY(0deg);
 }
