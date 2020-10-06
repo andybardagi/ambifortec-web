@@ -20,10 +20,20 @@ h3 {
     font-size: 30px;
 }
 
-@media(max-width:1024px) {
+@media(max-width:1200px) {
     h2 {
         font-size: 30px;
     }
+
+    .title-section h1{
+        font-size: 3rem;
+    }
+    .title-section h3{
+        font-size: 2rem;
+    }
+    .title-section p{
+        font-size: 1rem;
+    }   
 }
 
 p{
@@ -273,9 +283,9 @@ footer {
     padding-left: 15%;
 }
 
-.rojo,
-.verde,
-.verde-oscuro {
+h1 .rojo,
+h1 .verde,
+h1 .verde-oscuro {
     font-weight: 650;
     font-size: 65px;
 }
@@ -284,8 +294,10 @@ footer {
     color:  #781A23;
 }
 
+
+
 .verde {
-    color: yellowgreen;
+    color:#889832;
 }
 
 .verde-oscuro {
@@ -307,8 +319,8 @@ footer {
     padding-bottom: 15%;
 }
 
-/* SERVICIOS */
 
+/* SERVICIOS */
 .texto-servicios h3{
     font-weight: 700;
     font-size: 40px;
@@ -318,9 +330,36 @@ footer {
     padding: 8%;
 }
 
+.txt-services{
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 2%;
+    background-color: #f8f8f8f8;
+}
+
+#services .row .col-lg-4{
+    background-color:#889832;
+    color: white;
+    font-weight: 700;
+    text-align: right;
+    padding-bottom: 2rem;
+}
+#services .row .col-lg-4, #services .row .col-lg-8{
+    padding-top: 2rem;
+}
+
+#link-equipos{
+    color: #781A23;
+}
+
+#link-equipos:hover{
+    text-decoration: 2px underline;
+    color: #781A23;
+}
+
 /* EQUIPOS */
 
-.tit-equipos{
+.tit-equipos{   
     padding: 3% 10%;
 }
 .tit-equipos, h2{
