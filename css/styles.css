@@ -346,6 +346,11 @@ h1 .verde-oscuro {
     top:50%;
     transform: translateY(-50%);
 }
+
+.horizontally-centered{
+    text-align: center;
+}
+
 .i-about{
     margin-left: 20px;
     margin-right: 20px;
