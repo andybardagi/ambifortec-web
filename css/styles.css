@@ -319,6 +319,37 @@ h1 .verde-oscuro {
     padding-bottom: 15%;
 }
 
+.r-about{
+    margin: 0% 10%;
+    
+}
+.def-about{
+    position: relative;
+    padding-bottom: 0.3rem;
+}
+.def-about::before{
+    content: "";
+    background-color: #889832;
+    width: 80px;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.black{
+    color: black;
+}
+.vertically-centered {
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.i-about{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 /* SERVICIOS */
 .texto-servicios h3{
