@@ -283,12 +283,58 @@ footer {
     padding-right: 15%;
     padding-left: 15%;
 }
-
 h1 .rojo,
 h1 .verde,
 h1 .verde-oscuro {
     font-weight: 650;
-    font-size: 65px;
+}
+    
+
+.tit-about{
+    font-size: 4.5rem;
+}
+.def-about{
+    position: relative;
+    padding-bottom: 0.3rem;
+}
+.r-about{
+    margin: 4rem 20% 0rem;
+    
+}
+.def-about::before{
+    content: "";
+    background-color: #889832;
+    width: 80px;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tit-about{
+    font-size: 3.5rem;   
+    }
+    .def-about{
+        padding-bottom: 1.3rem;
+    }
+    .r-about{
+        margin:4rem 6%   ;
+    }
+}
+
+/* CELULAR */
+@media(max-width:768px){
+    .tit-about{
+    font-size: 2.2rem;
+    }
+    .t-about{
+        font-size: 14px;
+    }
+    .r-about{
+        margin:4rem 3%   ;
+    }
 }
 
 .rojo {
@@ -320,25 +366,8 @@ h1 .verde-oscuro {
     padding-bottom: 15%;
 }
 
-.r-about{
-    margin: 4rem 20% 0rem;
-    
-}
-.def-about{
-    position: relative;
-    padding-bottom: 0.3rem;
-}
 
-.def-about::before{
-    content: "";
-    background-color: #889832;
-    width: 80px;
-    height: 5px;
-    border-radius: 2px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
+
 
 .black{
     color:#212529;
@@ -361,6 +390,9 @@ h1 .verde-oscuro {
 
 
 /* SERVICIOS */
+.servicios{
+    max-width: 100%;
+}
 .texto-servicios h3{
     font-weight: 700;
     font-size: 40px;
@@ -386,6 +418,19 @@ h1 .verde-oscuro {
 }
 #services .row .col-lg-4, #services .row .col-lg-8{
     padding-top: 2rem;
+}
+
+@media(max-width:990px){
+    #services .row .col-lg-4{
+        background-color:white;
+        color:#212529;
+        font-weight: 700;
+        text-align: center;
+        border-top: 3px dotted #212529;
+    }
+    #services .row .col-lg-8{
+        padding-bottom: 2rem;
+    }
 }
 
 #link-equipos{
