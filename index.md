@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMBIFORTEC</title>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <section id="titulo">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand activo-nav" href="index.html"><img class="logo-nav-bar" src="images/Logo_Trans2.png"
+            width="150" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">EMPRESA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="equipos.html">EQUIPOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- TITULO PRINCIPAL + TEXTO ++ CAROUSEL DERECHA -->
+  <div>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 title-section">
+        <h1>AMBIFORTEC</h1>
+        <h3>Soluciones al presente</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae repudiandae amet dolores qui
+          non quo, inventore, debitis pariatur quisquam voluptatem error dicta laboriosam asperiores
+          reprehenderit minima facilis cum in iusto.</p>
+      </div>
+      <div class="col-lg-6 col-md-12 padd-carous">
+        <div id="carousel" class="carousel slide" data-interval="3000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-carousel" src="images/carousel1.jpeg">
+            </div>
+            <div class="carousel-item">
+              <img class="img-carousel" src="images/carousel2.jpeg">
+            </div>
+            <div class="carousel-item">
+              <img class="img-carousel" src="images/carousel3.jpeg">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEGUNDA SECCION -->
+  <div class="container-fluid segunda-index">
+    <h2>POR UN PRESENTE MÁS LIMPIO</h2>
+    <p>Somos una empresa flexible que busca mejorar la versatilidad y la durabilidad de los productos que ya se
+      encuentran en el mercado.</p>
+    <p>El cliente necesita soluciones que perduren en el tiempo, por eso buscamos intercambiar ideas para que el
+      producto preste los servicios adecuados.</p>
+    <p>La empresa está día a día a disposición del cliente. La experiencia nos sobra, más de 16 años al servicio,
+      buscando que el cliente se sienta satisfecho.</p>
+  </div>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <div class="productos-index">
+    <div class="row card-container">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="images/barredora.png" alt="Barredora">
+          <h5 class="card-title">BARREDORAS</h5>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card">
+          <img class="card-img-top" src="images/compactador.png" alt="Compactador">
+          <h5 class="card-title">COMPACTADORES</h5>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 foto-contenedor">
+        <div class="card">
+          <img class="card-img-top" src="images/contenedor.png" alt="Contenedor">
+          <h5 class="card-title">CONTENEDORES</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="ver-mas">
+      <a href="equipos.html"><button class="btn btn-lg boton-ver-mas">VER MÁS</button></a>
+    </div>
+  </div>
+
+  <!-- CONTACTO ++ MAPA -->
+  <section id="contacto-principal">
+    <div class="row cont-index">
+      <div class="contacto-index col-lg-6 col-md-12">
+        <h2>¡CONTACTÁNOS!</h2>
+        <ul class="datos-contacto-lista-principal">
+          <li><i class="cont-index fas fa-map-marker-alt"></i> Ruta Nacional Juan D Peron 349, Rio Segundo, Cordoba</li>
+          <li><i class="cont-index fas fa-phone"></i> 0351-157019196 / 03572-423123</li>
+          <li><i class="cont-index fas fa-envelope"></i>CORREO ELECTRÓNICO</li>
+        </ul>
+      </div>
+      <div class="mapa-ubicacion col-lg-6 col-md-12">
+        <iframe class="mapa-ubicacion"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5712.1325830558235!2d-63.91148369021129!3d-31.64878697419699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432cafff1f1cec1%3A0xf370c1a41d5322ac!2zUsOtbyBTZWd1bmRvLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1601235555979!5m2!1ses-419!2sar"
+          width="100%" height="100%" frameborder="0px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div class="wsp">
+    <a href="https://wa.me/5493517019196?text=Hola+AMBIFORTEC!">
+    <img src="images/wsp-logo.png" alt="Whatsapp" class="wsp-img">
+    <a/>
+  </div>
+
+  <!-- PIE DE PAGINA -->
+  <footer>
+    <i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fas fa-envelope "></i>
+    <p class="copyright">© Ambifortec</p>
+
+  </footer>
+</body>
+
+</html>
