@@ -36,6 +36,65 @@ h3 {
     }   
 }
 
+.wsp-img{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+    cursor: pointer;   
+}
+
+
+
+.ver-mas {
+    text-align: center;
+    padding: 2rem 4rem 3rem;
+}
+
+.boton-ver-mas {
+    width: 30%;
+    color: white;
+    background-color: #781A23;
+    border-style: solid;
+    border-color: #781A23;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.boton-ver-mas:hover {
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: #781A23;
+    border-width: 2px;
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wsp{
+        width: 45px;
+    }
+    .boton-ver-mas{
+        width: 70%;
+    }
+}
+
+/* CELULAR */
+@media(max-width:768px){
+    .wsp{
+        width: 45px;
+    }
+    .boton-ver-mas{
+        width: 100%;
+    }
+}
+
 p{
     font-size: 18px;
 }
@@ -117,31 +176,6 @@ p{
 }
 
 /* Productos-pag-principal */
-
-.ver-mas {
-    text-align: center;
-    padding: 2rem 4rem 3rem;
-}
-
-.boton-ver-mas {
-    width: 30%;
-    color: white;
-    background-color: #781A23;
-    border-style: solid;
-    border-color: #781A23;
-    border-width: 2px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 400;
-}
-
-.boton-ver-mas:hover {
-    color: black;
-    background-color: white;
-    border-style: solid;
-    border-color: #781A23;
-    border-width: 2px;
-}
 
 .productos-index {
     padding: 6% 10%;
