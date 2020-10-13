@@ -1,5 +1,3 @@
-
-
 body {
     font-family: "Montserrat";
 }
@@ -36,31 +34,38 @@ h3 {
     h2 {
         font-size: 30px;
     }
+
     .segunda-index {
         text-align: justify;
     }
-    .title-section h1{
+
+    .title-section h1 {
         font-size: 3rem;
     }
-    .title-section h3{
+
+    .title-section h3 {
         font-size: 2rem;
     }
-    .title-section p{
+
+    .title-section p {
         font-size: 1rem;
     }
-    .logo-nav-bar{
+
+    .logo-nav-bar {
         width: 130px;
-    }   
+    }
 }
 
-@media(max-width:600px){
-    .title-section h1{
+@media(max-width:600px) {
+    .title-section h1 {
         font-size: 2rem;
     }
-    .title-section h3{
+
+    .title-section h3 {
         font-size: 1.2rem;
     }
-    .title-section p{
+
+    .title-section p {
         font-size: 0.8rem;
     }
 
@@ -69,21 +74,24 @@ h3 {
         text-align: center;
         padding: 3% 0%;
     }
-    .segunda-index p{
+
+    .segunda-index p {
         font-size: 0.8rem;
     }
+
     .segunda-index {
         padding: 5% 5%;
         background-color: #f8f8f8f8;
         color: black;
-    }   
-    .logo-nav-bar{
+    }
+
+    .logo-nav-bar {
         width: 90px;
     }
 }
 
 
-.wsp-img{
+.wsp-img {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -92,7 +100,7 @@ h3 {
     align-items: center;
     justify-content: center;
     z-index: 101;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 
@@ -124,25 +132,27 @@ h3 {
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .wsp-img{
+    .wsp-img {
         width: 55px;
     }
-    .boton-ver-mas{
+
+    .boton-ver-mas {
         width: 70%;
     }
 }
 
 /* CELULAR */
-@media(max-width:768px){
-    .wsp-img{
+@media(max-width:768px) {
+    .wsp-img {
         width: 45px;
     }
-    .boton-ver-mas{
+
+    .boton-ver-mas {
         width: 100%;
     }
 }
 
-p{
+p {
     font-size: 18px;
 }
 
@@ -165,8 +175,8 @@ p{
     font-weight: 500;
 }
 
-.activo-nav{
-    border-bottom: 2px solid  #781A23 ;
+.activo-nav {
+    border-bottom: 2px solid #781A23;
     color: black;
 }
 
@@ -346,25 +356,29 @@ footer {
     padding-right: 15%;
     padding-left: 15%;
 }
+
 h1 .rojo,
 h1 .verde,
 h1 .verde-oscuro {
     font-weight: 650;
 }
-    
 
-.tit-about{
+
+.tit-about {
     font-size: 4.5rem;
 }
-.def-about{
+
+.def-about {
     position: relative;
     padding-bottom: 0.3rem;
 }
-.r-about{
+
+.r-about {
     margin: 4rem 20% 0rem;
-    
+
 }
-.def-about::before{
+
+.def-about::before {
     content: "";
     background-color: #889832;
     width: 80px;
@@ -374,40 +388,14 @@ h1 .verde-oscuro {
     left: 0;
     bottom: 0;
 }
-/* TABLET */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .tit-about{
-    font-size: 3.5rem;   
-    }
-    .def-about{
-        padding-bottom: 1.3rem;
-    }
-    .r-about{
-        margin:4rem 6%   ;
-    }
-}
-
-/* CELULAR */
-@media(max-width:768px){
-    .tit-about{
-    font-size: 2.2rem;
-    }
-    .t-about{
-        font-size: 14px;
-    }
-    .r-about{
-        margin:4rem 3%   ;
-    }
-}
 
 .rojo {
-    color:  #781A23;
+    color: #781A23;
 }
-
 
 
 .verde {
-    color:#889832;
+    color: #889832;
 }
 
 .verde-oscuro {
@@ -429,97 +417,130 @@ h1 .verde-oscuro {
     padding-bottom: 15%;
 }
 
-
-
-
-.black{
-    color:#212529;
+.black {
+    color: #212529;
 }
 
 .vertically-centered {
     position: relative;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
-.horizontally-centered{
+.horizontally-centered {
     text-align: center;
     max-width: 100%;
 }
 
-.i-about{
+.i-about {
     max-width: 100%;
 }
 
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tit-about {
+        font-size: 3.5rem;
+    }
+
+    .def-about {
+        padding-bottom: 1.3rem;
+    }
+
+    .r-about {
+        margin: 4rem 6%;
+    }
+}
+
+/* CELULAR */
+@media(max-width:768px) {
+    .tit-about {
+        font-size: 2.2rem;
+    }
+
+    .t-about {
+        font-size: 14px;
+    }
+
+    .r-about {
+        margin: 4rem 3%;
+    }
+}
 
 /* SERVICIOS */
-.servicios{
+.servicios {
     max-width: 100%;
 }
-.texto-servicios h3{
+
+.texto-servicios h3 {
     font-weight: 700;
     font-size: 40px;
 }
 
-.texto-servicios{
+.texto-servicios {
     padding: 8%;
 }
 
-.txt-services{
+.txt-services {
     text-align: justify;
     padding-right: 10%;
     padding-left: 2%;
     background-color: #f8f8f8f8;
 }
 
-#services .row .col-lg-4{
-    background-color:#889832;
+#services .row .col-lg-4 {
+    background-color: #889832;
     color: white;
     font-weight: 700;
     text-align: right;
     padding-bottom: 2rem;
 }
-#services .row .col-lg-4, #services .row .col-lg-8{
+
+#services .row .col-lg-4,
+#services .row .col-lg-8 {
     padding-top: 2rem;
 }
 
-@media(max-width:990px){
-    #services .row .col-lg-4{
-        background-color:white;
-        color:#212529;
+@media(max-width:990px) {
+    #services .row .col-lg-4 {
+        background-color: white;
+        color: #212529;
         font-weight: 700;
         text-align: center;
         border-top: 3px dotted #212529;
     }
-    #services .row .col-lg-8{
+
+    #services .row .col-lg-8 {
         padding-bottom: 2rem;
     }
 }
 
-#link-equipos{
+#link-equipos {
     color: #781A23;
 }
 
-#link-equipos:hover{
+#link-equipos:hover {
     text-decoration: 2px underline;
     color: #781A23;
 }
 
 /* EQUIPOS */
 
-.tit-equipos{   
+.tit-equipos {
     padding: 3% 10%;
 }
-.tit-equipos, h2{
+
+.tit-equipos,
+h2 {
     font-weight: 750;
 }
-.equipos{
+
+.equipos {
     padding: 1% 10%;
 }
 
-.tj-equipos{
+.tj-equipos {
     /* tarjetas seccion equipos */
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     margin-bottom: 15px;
     overflow: hidden;
 }
@@ -534,7 +555,7 @@ h1 .verde-oscuro {
 
 }
 
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -544,19 +565,19 @@ h1 .verde-oscuro {
     bottom: 0;
 }
 
-.tarjeta .overlay{
+.tarjeta .overlay {
     background-color: #f8f8f8f8;
     color: #889832;
     transform: translateX(-100%);
-    -webkit-transition: transform 0.5s ease-out ;
+    -webkit-transition: transform 0.5s ease-out;
     -o-transition: transform 0.5s ease-out;
     transition: transform 0.5s ease-out;
 }
 
-.tarjeta .box:hover .overlay{
+.tarjeta .box:hover .overlay {
     transform: translateX(0);
 }
 
-.info-equipo{
+.info-equipo {
     margin: 15%;
 }
