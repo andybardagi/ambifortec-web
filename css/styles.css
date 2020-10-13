@@ -20,11 +20,25 @@ h3 {
     font-size: 30px;
 }
 
+/* Seccion-eslogan */
+.segunda-index h2 {
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.segunda-index {
+    padding: 5% 20%;
+    background-color: #f8f8f8f8;
+    color: black;
+}
+
 @media(max-width:1200px) {
     h2 {
         font-size: 30px;
     }
-
+    .segunda-index {
+        text-align: justify;
+    }
     .title-section h1{
         font-size: 3rem;
     }
@@ -33,8 +47,41 @@ h3 {
     }
     .title-section p{
         font-size: 1rem;
+    }
+    .logo-nav-bar{
+        width: 130px;
     }   
 }
+
+@media(max-width:600px){
+    .title-section h1{
+        font-size: 2rem;
+    }
+    .title-section h3{
+        font-size: 1.2rem;
+    }
+    .title-section p{
+        font-size: 0.8rem;
+    }
+
+    .segunda-index h2 {
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 3% 0%;
+    }
+    .segunda-index p{
+        font-size: 0.8rem;
+    }
+    .segunda-index {
+        padding: 5% 5%;
+        background-color: #f8f8f8f8;
+        color: black;
+    }   
+    .logo-nav-bar{
+        width: 90px;
+    }
+}
+
 
 .wsp-img{
     position: fixed;
@@ -77,8 +124,8 @@ h3 {
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .wsp{
-        width: 45px;
+    .wsp-img{
+        width: 55px;
     }
     .boton-ver-mas{
         width: 70%;
@@ -87,7 +134,7 @@ h3 {
 
 /* CELULAR */
 @media(max-width:768px){
-    .wsp{
+    .wsp-img{
         width: 45px;
     }
     .boton-ver-mas{
@@ -153,26 +200,6 @@ p{
 .img-carousel {
     padding: 0px;
     width: 100%;
-}
-
-/* Seccion-eslogan */
-
-.segunda-index h2 {
-    text-align: center;
-    padding: 3% 0%;
-}
-
-.segunda-index {
-    padding: 5% 20%;
-    background-color: #f8f8f8f8;
-    color: black;
-}
-
-
-@media (max-width: 1024px) {
-    .segunda-index {
-        text-align: justify;
-    }
 }
 
 /* Productos-pag-principal */
