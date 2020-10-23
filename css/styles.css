@@ -232,6 +232,7 @@ p {
     text-overflow: ellipsis;
     padding: 2rem 0.8rem;
     font-weight: bold;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -585,5 +586,8 @@ h2 {
 @media(max-width:1280px) {
     .info-equipo p{
         font-size: 13px;
+    }
+    .card-title{
+        font-size: 18px;
     }
 }
