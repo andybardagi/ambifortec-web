@@ -16,6 +16,8 @@ h2 {
 h3 {
     font-weight: 400;
     font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* Seccion-eslogan */
@@ -47,7 +49,7 @@ h3 {
         font-size: 2rem;
     }
 
-    .title-section p {
+    .title-section p { 
         font-size: 1rem;
     }
 
