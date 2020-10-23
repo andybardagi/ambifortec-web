@@ -581,3 +581,9 @@ h2 {
 .info-equipo {
     margin: 15%;
 }
+
+@media(max-width:1280px) {
+    .info-equipo p{
+        font-size: 13px;
+    }
+}
