@@ -503,6 +503,10 @@ h1 .verde-oscuro {
     padding-top: 2rem;
 }
 
+.txt-car1{
+    background-color: #0C201C;
+}
+
 @media(max-width:990px) {
     #services .row .col-lg-4 {
         background-color: white;
@@ -514,6 +518,15 @@ h1 .verde-oscuro {
 
     #services .row .col-lg-8 {
         padding-bottom: 2rem;
+    }
+
+    .txt-car1{
+        font-size: 80%;
+    }
+}
+@media(min-width:768px){
+    .desc-tab{
+        display: none;
     }
 }
 
