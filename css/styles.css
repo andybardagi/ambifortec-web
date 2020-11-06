@@ -490,6 +490,16 @@ h1 .verde-oscuro {
     background-color: #f8f8f8f8;
 }
 
+.div-carous{
+    text-align: center;
+    margin: 0% 25%;
+}
+
+#carousel-MontajesIndustriales{
+    text-align: center;
+}
+
+
 #services .row .col-lg-4 {
     background-color: #889832;
     color: white;
