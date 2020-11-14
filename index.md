@@ -73,7 +73,7 @@
               <a class="nav-link" href="servicios.html">SERVICIOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="equipos.html">EQUIPOS</a>
+              <a class="nav-link" href="equipos.html">ALQUILER DE EQUIPOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">CONTACTO</a>
