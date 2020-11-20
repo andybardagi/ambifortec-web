@@ -96,7 +96,6 @@ h3 {
     }
 }
 
-
 .wsp-img {
     position: fixed;
     bottom: 20px;
@@ -221,11 +220,16 @@ p {
 /* Productos-pag-principal */
 
 .productos-index {
-    padding: 6% 10%;
+    padding: 2% 10% 6%;
     padding-bottom: 0em;
     text-align: center;
 }
 
+.eq-index-tit{
+    font-weight: 600;
+    padding-bottom: 2rem;
+
+}
 .card {
     text-align: left;
     border: none;
@@ -562,12 +566,17 @@ h1 .verde-oscuro {
 /* EQUIPOS */
 
 .tit-equipos {
-    padding: 3% 10%;
+    padding: 2% 10% 1%;
 }
 
 .tit-equipos,
 h2 {
     font-weight: 750;
+}
+
+.txt-equipos{
+    padding: 0% 10%
+
 }
 
 .equipos {
