@@ -670,7 +670,7 @@ h2 {
 }
 
 .imagen-404 img {
-    height: 35rem;
+    height: 30rem;
     width: auto;
 }
 
@@ -684,7 +684,9 @@ h2 {
     padding: 1rem 6rem;
     color: white;
     background-color: #889832;
-    border-style: none;
+    border-style: solid;
+    border-color: #889832;
+    border-width: 3px;
     box-shadow: 2px 2px 4px rgb(114, 114, 114);
     font-size: 2.5rem;
     font-weight: 600;
@@ -701,4 +703,51 @@ h2 {
     box-shadow: none;
     border-style: solid;
     border-width: 3px;
+}
+
+@media(max-width:1280px){   
+    .titulo-404 h1 {
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+    
+    .texto-error404 p {
+        font-size: 2rem;
+        margin: 8px;
+    }
+    
+    .imagen-404 img {
+        height: 20rem;
+        width: auto;
+    }
+    
+    .boton-inicio-404{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 0%;
+    }
+    
+    .boton-404 {
+        padding: 1rem 6rem;
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
+}
+
+@media(max-width:590px){
+    .texto-error404 p {
+        font-size: 1.5rem;
+        margin: 8px;
+    }
+    
+    .imagen-404 img {
+        height: 16rem;
+        width: auto;
+    }
+
+    .boton-404 {
+        padding: 1rem 6rem;
+        font-size: 1.2rem;
+        border-radius: 20px;
+    }
 }
